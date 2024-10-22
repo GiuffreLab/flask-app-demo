@@ -3,6 +3,8 @@
 ## Overview
 This Flask web application serves a simple, visually appealing web page that displays environment-specific information. The app is designed to be easily run locally as a Python application, as well as in containerized environments like Docker and Kubernetes. The primary focus is to demonstrate different configurations and environments through the user interface.
 
+[GitHub Repo for Deploying in Kubernetes](https://github.com/GiuffreLab/kubernetes-kustomize-overlays)
+
 ## Running the Application as a Python Script
 
 ### Prerequisites
