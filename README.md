@@ -7,7 +7,7 @@ This Flask web application serves a simple, visually appealing web page that dis
 
 ### Prerequisites
 To run the application locally, you need:
-- Python 3.8 or above
+- Python 3.9 or above
 - `pip` (Python package manager)
 - Dependencies specified in `requirements.txt` (such as Flask)
 
