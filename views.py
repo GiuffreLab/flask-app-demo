@@ -20,3 +20,12 @@ def home():
     container_hostname = current_app.config.get('container_hostname', 'Unknown')
     environment = current_app.config.get('environment', 'Unknown Environment')
     return render_template("index.html", container_hostname=container_hostname, environment=environment)
+
+# Health check routes
+@main.route("/health")
+def health():
+    return "OK", 200
+
+@main.route("/readiness")
+def readiness():
+    return "Ready", 200
