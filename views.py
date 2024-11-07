@@ -19,7 +19,7 @@ def log_request_info():
 def home():
     container_hostname = current_app.config.get('container_hostname', 'Unknown')
     environment = current_app.config.get('environment', 'Unknown Environment')
-    return render_template("index.html", container_hostname=container_hostname, environment=environment)
+    return render_template("index-1.html", container_hostname=container_hostname, environment=environment)
 
 # Health check routes
 @main.route("/health")
