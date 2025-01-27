@@ -41,4 +41,4 @@ if __name__ == "__main__":
     # read the port from an environment variable
     port = int(os.getenv("PORT", 8080))
     # run the flask app
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port, debug=False)
